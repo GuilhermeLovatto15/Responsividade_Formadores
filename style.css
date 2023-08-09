@@ -1,10 +1,21 @@
 @import url("Styles/header.css");
+@import url("Styles/banner.css");
+@import url("Styles/carrossel.css");
 
 :root{
     --cor-de-fundo: #eed8d8;
-    --branco: #FFFFFF; 
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --roxo-degrade: linear-gradient(94.49deg,#733887 35.48%,#C75EEB 143.32%);
+    --fonte-principal: "poppins";
+    --fonte-secundaria: "josefin sans";
+    --preto: #000000;
+    --roxo: #733887; 
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
